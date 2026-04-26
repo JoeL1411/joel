@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf4fb; /* fondo celeste claro */
+    margin: 0;
+}
+
+/* Título */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Contenedor */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Tarjetas */
+.tarjeta {
+    width: 200px;
+    background-color: #ffffff;
+    border: 1px solid #b3d7f5;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+.tarjeta h3 {
+    color: #3498db;
+}
+
+/* Botón */
+button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #3498db; /* azul */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Efecto al pasar el mouse */
+button:hover {
+    background-color: #2980b9;
+}

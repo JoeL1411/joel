@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+/* Título */
+h1 {
+    font-size: 36px;
+}
+
+/* Lista */
+ul {
+    line-height: 2;
+}
+
+/* Enlaces */
+a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+a:hover {
+    color: #3498db;
+}

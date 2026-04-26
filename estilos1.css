@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Barra */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* centra verticalmente */
+    background: #2c3e50;
+    height: 70px;
+    padding: 0 30px;
+    color: white;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center; /* centra logo + texto */
+    gap: 10px;
+}
+
+/* Menú */
+.menu {
+    display: flex;
+    align-items: center; /* centra los items verticalmente */
+    list-style: none;
+    gap: 30px; /* separación uniforme entre opciones */
+    margin: 0;
+    padding: 0;
+}
+
+/* Enlaces */
+.menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 0;
+}
+
+
+
+
