@@ -33,14 +33,14 @@ button {
     margin-top: 20px;
     padding: 10px 20px;
     border: none;
-    background-color: #3498db;
+    background-color: #6c7b86;
     color: white;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #323c42;
 }
 
 /* IMAGEN */
